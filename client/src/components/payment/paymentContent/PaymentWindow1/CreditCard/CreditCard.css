@@ -1,0 +1,51 @@
+.CreditCard {
+    margin: 20px;
+    height: 170px;
+    width: 300px;
+    box-shadow: 1px 1px 5px 1px #d3d3d3;
+    border-radius: 10px;
+}
+
+.Cards-Logos {
+    width: 110px;
+    height: auto;
+    position: relative;
+    left: 170px;
+    top: 10px;
+}
+
+.Card-Form {
+    margin: 20px 15px;
+    opacity: .5;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #e3e3e3; 
+}
+
+.Card-Form:required, .Card-Form:invalid {
+    border: none;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.Card-Form:valid {
+    border-bottom-color: #a0f5a0;
+}
+
+.Card-Form:focus {
+    opacity: 1;
+}
+
+.Card-Number {
+    width: 200px;
+    padding-left: 20px;    
+}
+
+.Card-Exp, .Card-CVC {
+    padding-left: 10px;    
+    width: 40px;
+    display: inline-block;
+}
+
+.Card-CVC {
+    width: 30px;
+}
