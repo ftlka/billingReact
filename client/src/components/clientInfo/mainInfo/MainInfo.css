@@ -1,0 +1,19 @@
+.Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Links {
+    display: flex;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Phone {
+    color: #6d645f;
+}

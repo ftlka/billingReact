@@ -1,0 +1,28 @@
+{
+  "name": "billing-app",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "description": "A bank billing app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftlka/billingReact.git"
+  },
+  "keywords": [
+    "react",
+    "billing",
+    "single-page"
+  ],
+  "author": "ftlka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftlka/billingReact/issues"
+  },
+  "homepage": "https://github.com/ftlka/billingReact#readme"
+}

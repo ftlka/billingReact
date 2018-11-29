@@ -1,0 +1,23 @@
+.PaymentOptions {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.PaymentOption {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px 8px 0;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+.PaymentOption:hover {
+    border-bottom-color: #c3c3c3;
+}
+
+.Icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}

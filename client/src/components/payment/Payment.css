@@ -1,0 +1,7 @@
+.Payment {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px 15px 5px;
+    width: 95%;
+    margin: 35px auto;
+}
