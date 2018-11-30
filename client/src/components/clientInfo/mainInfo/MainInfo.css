@@ -1,19 +1,23 @@
-.Name {
+.Name
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.Links {
+.Links
+{
     display: flex;
 }
 
-.InfoContainer {
+.InfoContainer
+{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.Phone {
+.Phone
+{
     color: #6d645f;
 }

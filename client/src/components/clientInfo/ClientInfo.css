@@ -1,9 +1,12 @@
-.ClientInfo {
-    border: 1px solid #333;
-    border-radius: 10px;
+.ClientInfo
+{
     display: flex;
     justify-content: space-between;
-    padding: 5px 15px;
+
     width: 95%;
     margin: auto;
+    padding: 5px 15px;
+
+    border: 1px solid #333;
+    border-radius: 10px;
 }

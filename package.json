@@ -8,7 +8,9 @@
     "body-parser": "1.18.2",
     "express": "^4.16.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "csscomb": "^4.2.0"
+  },
   "description": "A bank billing app",
   "repository": {
     "type": "git",

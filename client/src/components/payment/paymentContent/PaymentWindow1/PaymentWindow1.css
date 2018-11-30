@@ -1,3 +1,6 @@
-.PaymentWindow1 {
+.PaymentWindow1
+{
+    display: block;
+
     height: 300px;
 }

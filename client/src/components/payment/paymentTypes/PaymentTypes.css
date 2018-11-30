@@ -1,26 +1,34 @@
-.PaymentTypesContainer {
-    padding: 0;
+.PaymentTypesContainer
+{
     display: flex;
     flex-flow: row;
+
     width: fit-content;
     margin-left: 5px;
+    padding: 0;
+
     border: 1.5px solid #9c9794;
 }
 
-.PaymentTypesContainer:hover .MakePayment {
-    border-right-color: #9c9794;    
+.PaymentTypesContainer:hover .MakePayment
+{
+    border-right-color: #9c9794;
 }
 
-.MakePayment {
+.MakePayment
+{
     border-right: 1.5px solid #fff;
 }
 
-.PaymentType {
+.PaymentType
+{
     margin: 0;
     padding: 10px 16px;
 }
 
-.PaymentType:hover {
-    background-color: #f0f0f0;
+.PaymentType:hover
+{
     cursor: pointer;
+
+    background-color: #f0f0f0;
 }

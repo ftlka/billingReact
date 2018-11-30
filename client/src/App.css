@@ -1,37 +1,56 @@
-.App {
-  border: 2px solid #776a6a;
-  padding: 3%;
-  margin: 3% 7%;  
-  height: 80%;
-  display: grid;
-  grid-template-rows: 1fr 2fr 2fr;
+.App
+{
+    display: grid;
+
+    height: 80%;
+    margin: 3% 7%;
+    padding: 3%;
+
+    border: 2px solid #776a6a;
+
+    grid-template-rows: 1fr 2fr 2fr;
 }
 
-.Link {
-  color: #5ca7ec;
-  cursor: pointer;
+.Link
+{
+    cursor: pointer;
+
+    color: #5ca7ec;
 }
 
-.Link:hover {
-  color: #025eb4;
+.Link:hover
+{
+    color: #025eb4;
 }
 
-.Header {
-  font-weight: 700;
-  font-size: 18px;  
+.Header
+{
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.Placeholder {
-  color: #776a6a;
+.Placeholder
+{
+    color: #776a6a;
 }
 
-.Flex-Row-Elem {
-  margin-right: 12px; 
+.Flex-Row-Elem
+{
+    margin-right: 12px;
 }
 
-.Text {
-  overflow: auto;
-  min-width: 20px;
-  max-width: 350px;
-  white-space: nowrap;
+.Text
+{
+    overflow: auto;
+
+    min-width: 20px;
+    max-width: 350px;
+
+    white-space: nowrap;
+}
+
+/* More specific to overwrite */
+.App .Form:valid
+{
+    border-bottom-color: #a0f5a0;
 }
