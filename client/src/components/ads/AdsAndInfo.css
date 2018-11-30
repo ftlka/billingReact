@@ -1,0 +1,52 @@
+.Google,
+.Vk,
+.Facebook,
+.Linkedin,
+.Ok,
+.Telegram,
+.Twitter
+{
+    display: inline-block;
+    overflow: hidden;
+
+    width: 25px;
+    height: 25px;
+    margin-right: 4px;
+
+    cursor: pointer;
+
+    background-image: url('./../../static/sprites.png');
+    background-size: 200% 400%;
+}
+
+.Google
+{
+    background-size: 200% 410%;
+}
+
+.Vk
+{
+    background-position: -25px -0;
+}
+.Facebook
+{
+    background-position: -0 -25px;
+}
+.Linkedin
+{
+    background-position: -25px -25px;
+}
+.Ok
+{
+    background-position: -0 -50px;
+    background-size: 202% 400%;
+}
+.Telegram
+{
+    background-position: -25px -50px;
+}
+.Twitter
+{
+    background-position: -0 -75px;
+    background-size: 200% 399%;
+}

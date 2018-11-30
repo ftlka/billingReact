@@ -3,6 +3,7 @@ import './App.css';
 
 import ClientInfo from './components/clientInfo/ClientInfo';
 import Payment from './components/payment/Payment';
+import AdsAndInfo from './components/ads/AdsAndInfo';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" />
         <ClientInfo />
         <Payment />
+        <AdsAndInfo />
       </div>
     );
   }

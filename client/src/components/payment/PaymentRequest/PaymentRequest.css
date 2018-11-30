@@ -1,0 +1,33 @@
+.PaymentRequest
+{
+    padding: 16px;
+}
+
+.Payment-Details
+{
+    width: 500px;
+}
+
+.Phone-Value
+{
+    padding: 0;
+    width: 75px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+.Phone-Warning
+{
+    margin-top: 2px;
+    font-size: 8px;
+}
+
+.Create-Payment
+{
+    margin-left: 2%;
+}
+
+.Clear-Form
+{
+    margin-left: 3%;
+}
