@@ -1,5 +1,7 @@
 .App
 {
+    font-family: 'Alegreya Sans', sans-serif;
+
     display: grid;
 
     height: 80%;
@@ -53,4 +55,44 @@
 .App .Form:valid
 {
     border-bottom-color: #a0f5a0;
+}
+
+.Default-Button-Styles
+{
+    font-size: 1rem;
+
+    display: inline-block;
+
+    margin: 0;
+    padding: 1rem 2rem;
+
+    cursor: pointer;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+    text-align: center;
+    text-decoration: none;
+
+    color: #3f3f3f;
+    border: none;
+    background: #e3e3e3;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+}
+
+.Default-Button-Styles:hover,
+.Default-Button-Styles:focus
+{
+    color: #000;
+    background: #c3c3c3;
+}
+
+.Default-Button-Styles:focus
+{
+    outline: 1px solid #000;
+}
+
+.Default-Button-Styles:active
+{
+    transform: scale(.99);
 }

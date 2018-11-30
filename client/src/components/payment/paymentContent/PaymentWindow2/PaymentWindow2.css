@@ -1,0 +1,72 @@
+.Payment-Window2
+{
+    display: block;
+
+    height: 300px;
+}
+
+.Payment-Detail
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.Payment-Header
+{
+    font-weight: 600;
+
+    padding-bottom: 8px;
+}
+
+.Payment-Details
+{
+    padding: 6px 30px;
+
+    color: #808080;
+}
+
+.NDS-Button
+{
+    font-size: 10px;
+
+    width: 55px;
+    margin: 0 3px;
+    padding: 0;
+
+    cursor: pointer;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+
+    opacity: .6;
+    border: none;
+    border: .5px solid #c3c3c3;
+}
+
+.NDS-Button:hover,
+.NDS-Button:focus
+{
+    opacity: .7;
+    outline: 1px solid #000;
+    background-color: #d3d3d3;
+    box-shadow: .5px .5px .5px .5px;
+}
+
+.NDS-Button:active
+{
+    color: #fff;
+    background-color: #000;
+}
+
+.Clear-Form
+{
+    margin-top: 7px;
+}
+
+.Detail-Value
+{
+    width: 40%;
+
+    text-align: center;
+}

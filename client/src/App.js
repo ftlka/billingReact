@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" />
         <ClientInfo />
         <Payment />
       </div>

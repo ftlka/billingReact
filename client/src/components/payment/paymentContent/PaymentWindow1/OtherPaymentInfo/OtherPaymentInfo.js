@@ -19,6 +19,7 @@ class OtherPaymentInfo extends Component {
                     <input className="Detail-Value Flex-Row-Elem Form" type="email"
                         placeholder="Для квитанций об оплате" />
                 </div>
+                <button className="Pay-Button Default-Button-Styles">Заплатить</button>
             </div>
         );
     }
