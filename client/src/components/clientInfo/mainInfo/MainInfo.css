@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    max-width: 100%;
 }
 
 .Links
@@ -15,9 +17,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    max-width: 70%;
 }
 
 .Phone
 {
     color: #6d645f;
+}
+
+.CompanyFullInfo,
+.ShowAccountDetails
+{
+    max-width: 100%;
+    margin: 2%;
 }

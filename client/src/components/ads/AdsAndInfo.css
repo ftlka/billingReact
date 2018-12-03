@@ -1,10 +1,46 @@
-.Google,
-.Vk,
-.Facebook,
-.Linkedin,
-.Ok,
-.Telegram,
-.Twitter
+.Ads-And-Info
+{
+    display: block;
+
+    width: 100%;
+}
+
+.About-Client
+{
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+.Product-Gallery
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 95%;
+}
+
+.Detailed-Info
+{
+    display: block;
+    overflow: hidden;
+
+    max-width: 100%;
+    max-height: 60px;
+    margin-top: 10px;
+
+    text-overflow: ellipsis;
+}
+
+.Social-Media
+{
+    position: relative;
+
+    width: 210px;
+    margin-left: auto;
+}
+
+.Sprite
 {
     display: inline-block;
     overflow: hidden;
@@ -14,9 +50,21 @@
     margin-right: 4px;
 
     cursor: pointer;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
 
     background-image: url('./../../static/sprites.png');
     background-size: 200% 400%;
+}
+
+.Sprite:hover
+{
+    transform: scale(1.15);
+
+    background-color: #fff;
+
+            filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 .Google
@@ -28,23 +76,28 @@
 {
     background-position: -25px -0;
 }
+
 .Facebook
 {
     background-position: -0 -25px;
 }
+
 .Linkedin
 {
     background-position: -25px -25px;
 }
+
 .Ok
 {
     background-position: -0 -50px;
     background-size: 202% 400%;
 }
+
 .Telegram
 {
     background-position: -25px -50px;
 }
+
 .Twitter
 {
     background-position: -0 -75px;

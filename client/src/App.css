@@ -2,15 +2,14 @@
 {
     font-family: 'Alegreya Sans', sans-serif;
 
-    display: grid;
+    display: block;
 
+    width: 80vw;
     height: 80%;
     margin: 3% 7%;
     padding: 3%;
 
     border: 2px solid #776a6a;
-
-    grid-template-rows: 1fr 2fr 2fr;
 }
 
 .Link
@@ -45,8 +44,7 @@
 {
     overflow: auto;
 
-    min-width: 20px;
-    max-width: 350px;
+    max-width: 50%;
 
     white-space: nowrap;
 }
