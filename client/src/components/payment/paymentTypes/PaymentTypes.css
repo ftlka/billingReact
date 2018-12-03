@@ -3,8 +3,9 @@
     display: flex;
     flex-flow: row;
 
-    width: fit-content;
-    margin-left: 5px;
+    width: 95%;
+    max-width: 300px;
+    margin: 5px;
     padding: 0;
 
     border: 1.5px solid #9c9794;
@@ -22,8 +23,11 @@
 
 .PaymentType
 {
+    width: 50%;
     margin: 0;
-    padding: 10px 16px;
+    padding: 10px;
+
+    text-align: center;
 }
 
 .PaymentType:hover

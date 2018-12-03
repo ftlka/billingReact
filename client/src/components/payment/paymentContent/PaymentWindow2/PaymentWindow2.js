@@ -6,7 +6,7 @@ class PaymentWindow2 extends Component {
     return (
       <div className="Payment-Window2">
         <header className="Payment-Header">Сформируйте платёжку и загрузите её в свой банк для подписи</header>
-        <div className="Payment-Details">
+        <div className="Payment-Details-Container">
           <div className="Payment-Detail From">
             <div className="Detail-Name">От кого</div>
             <input className="Detail-Value" placeholder="ИНН или название платильщика" />

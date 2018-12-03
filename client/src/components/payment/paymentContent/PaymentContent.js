@@ -10,7 +10,7 @@ class PaymentContent extends Component {
     return (
       <div>
           <PaymentOptions />
-          <PaymentWindow2 />
+          <PaymentWindow1 />
       </div>
     );
   }

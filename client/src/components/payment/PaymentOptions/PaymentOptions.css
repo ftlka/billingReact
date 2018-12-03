@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: row;
 
-    margin: 10px;
+    width: 95%;
+    margin: 10px auto;
 }
 
 .PaymentOption
@@ -11,11 +12,18 @@
     display: flex;
     flex-direction: row;
 
-    margin: 0 40px 8px 0;
+    width: 45%;
+    max-width: 200px;
 
     cursor: pointer;
 
     border-bottom: 2px solid #fff;
+}
+
+.Payment-Option-Text
+{
+    min-width: 70%;
+    max-width: 300px;
 }
 
 .PaymentOption:hover
